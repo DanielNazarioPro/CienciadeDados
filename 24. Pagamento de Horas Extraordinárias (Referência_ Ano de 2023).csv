@@ -1,0 +1,110 @@
+NOME DA BASE: Pagamento de Horas Extraordinárias;;;
+DESCRIÇÃO DA BASE: Relação contendo total de pagamentos de horas extraordinárias e Adicional por Plantão Hospitalar - APH por cargo;;;
+PERÍODO DE REFERÊNCIA: Ano de 2023;;;
+;;;
+HORAS EXTRAORDINÁRIAS (Vínculo CLT/Ebserh);;;
+Mês/2023;CARGO;TOTAL DE HORAS;
+JANEIRO ;Não houve horas extraordinárias no período;;
+JANEIRO ;TOTAL NO PERÍODO:  ;;
+;VALOR PAGO NO PERÍODO: ;;
+FEVEREIRO;Não houve horas extraordinárias no período;;
+FEVEREIRO;TOTAL NO PERÍODO:  ;;
+;VALOR PAGO NO PERÍODO: ;;
+MARÇO;Analista Administrativo;17,25;
+MARÇO;Assistente Administrativo;162,47;
+MARÇO;Enfermeiro;32,02;
+MARÇO;Técnico em Saúde;4,52;
+MARÇO;TOTAL NO PERÍODO:  ;216,26;
+;VALOR PAGO NO PERÍODO: ;R$ 8.639,64;
+ABRIL;Não houve horas extraordinárias no período;;
+ABRIL;TOTAL NO PERÍODO:  ;;
+;VALOR PAGO NO PERÍODO: ;;
+MAIO;Não houve horas extraordinárias no período;;
+MAIO;TOTAL NO PERÍODO:  ;;
+;VALOR PAGO NO PERÍODO: ;;
+JUNHO;Não houve horas extraordinárias no período;;
+JUNHO;TOTAL NO PERÍODO:  ;;
+;VALOR PAGO NO PERÍODO: ;;
+JULHO;Não houve horas extraordinárias no período;;
+JULHO;TOTAL NO PERÍODO:  ;;
+;VALOR PAGO NO PERÍODO: ;;
+AGOSTO;Não houve horas extraordinárias no período;;
+AGOSTO;TOTAL NO PERÍODO:  ;;
+;VALOR PAGO NO PERÍODO: ;;
+SETEMBRO;Técnico em Enfermagem;288;
+SETEMBRO;TOTAL NO PERÍODO:  ;288;
+;VALOR PAGO NO PERÍODO: ;R$ 11.263,54;
+OUTUBRO;Técnico em Enfermagem;1446;
+OUTUBRO;TOTAL NO PERÍODO:  ;1446;
+;VALOR PAGO NO PERÍODO: ;R$ 67.694,03;
+NOVEMBRO;Técnico em Enfermagem;1404;
+NOVEMBRO;Enfermeiro;174;
+NOVEMBRO;TOTAL NO PERÍODO:  ;1578;
+;VALOR PAGO NO PERÍODO: ;R$ 103.101,73;
+DEZEMBRO ;Enfermeiro;48;
+DEZEMBRO ;Fisioterapeuta;108;
+DEZEMBRO ;Técnico em Enfermagem;918;
+DEZEMBRO ;TOTAL NO PERÍODO:  ;1074;
+;VALOR PAGO NO PERÍODO: ;R$ 93.802,22;
+VALOR TORAL PAGO EM 2023 REFERENTE A HORAS EXTRAORDIÁRIAS:;;R$ 284.501,16;
+;;;
+;;;
+;;;
+ADICIONAL POR PLANTÃO HOSPITALAR - APH (Vínculo RJU);;;
+Mês/2023;CARGO;NÚMERO DE PLANTÕES;TOTAL DE HORAS
+JANEIRO ;Auxiliar de Enfermagem;16;192
+JANEIRO ;Farmacêutico;9;108
+JANEIRO ;Técnico em Enfermagem;9;108
+JANEIRO ;Técnico em Laboratório;27;324
+JANEIRO ;TOTAL NO PERÍODO:  ;61;732
+;VALOR PAGO NO PERÍODO: ;R$ 39.533,40;
+FEVEREIRO;Farmacêutico;;120
+FEVEREIRO;Técnico em Laboratório;26;312
+FEVEREIRO;TOTAL NO PERÍODO:  ;26;432
+;VALOR PAGO NO PERÍODO: ;R$ 22.946,28;
+MARÇO;Farmacêutico;7;84
+MARÇO;Técnico em Laboratório;27;324
+MARÇO;TOTAL NO PERÍODO:  ;34;408
+;VALOR PAGO NO PERÍODO: ;R$ 20.986,80;
+ABRIL;Farmacêutico;11;132
+ABRIL;Técnico em Laboratório;30;360
+ABRIL;TOTAL NO PERÍODO:  ;41;492
+;VALOR PAGO NO PERÍODO: ;R$ 27.232,92;
+MAIO;Farmacêutico;7;84
+MAIO;Técnico em Laboratório;17;204
+MAIO;TOTAL NO PERÍODO:  ;24;288
+;VALOR PAGO NO PERÍODO: ;R$ 16.325,40;
+JUNHO;Farmacêutico;8;96
+JUNHO;Técnico em Laboratório;25;300
+JUNHO;TOTAL NO PERÍODO:  ;33;396
+;VALOR PAGO NO PERÍODO: ;R$ 20.936,76;
+JULHO;Farmacêutico;9;108
+JULHO;Técnico em Laboratório;27;324
+JULHO;TOTAL NO PERÍODO:  ;36;432
+;VALOR PAGO NO PERÍODO: ;R$ 23.073,24;
+AGOSTO;Farmacêutico;7;84
+AGOSTO;Técnico em Laboratório;20;240
+AGOSTO;TOTAL NO PERÍODO:  ;27;324
+;VALOR PAGO NO PERÍODO: ;R$ 17.520,84;
+SETEMBRO;Farmacêutico;8;96
+SETEMBRO;Técnico em Laboratório;30;360
+SETEMBRO;TOTAL NO PERÍODO:  ;38;456
+;VALOR PAGO NO PERÍODO: ;R$ 24.001,56;
+OUTUBRO;Farmacêutico;7;84
+OUTUBRO;Técnico em Laboratório;22;264
+OUTUBRO;TOTAL NO PERÍODO:  ;29;348
+;VALOR PAGO NO PERÍODO: ;R$ 18.715,80;
+NOVEMBRO;Auxiliar de Enfermagem;6;72
+NOVEMBRO;Enfermeiro;4;48
+NOVEMBRO;Farmacêutico;4;48
+NOVEMBRO;Técnico em Laboratório;24;288
+NOVEMBRO;TOTAL NO PERÍODO:  ;38;456
+;VALOR PAGO NO PERÍODO: ;R$ 23.357,16;
+DEZEMBRO ;Auxiliar de Enfermagem;24;288
+DEZEMBRO ;Enfermeiro;8;96
+DEZEMBRO ;Farmacêutico;5;60
+DEZEMBRO ;Técnico em Enfermagem;25;300
+DEZEMBRO ;Técnico em Laboratório;22;264
+DEZEMBRO ;TOTAL NO PERÍODO:  ;84;1008
+;VALOR PAGO NO PERÍODO: ;R$ 51.626,04;
+VALOR TORAL PAGO EM 2023 REFERENTE A ADICIONAL POR PLANTÃO HOSPITALAR - APH:;;R$ 306.256,20;
