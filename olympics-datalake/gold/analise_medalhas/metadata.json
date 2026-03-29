@@ -1,0 +1,76 @@
+{
+    "nome_dataset": "quadro_medalhas_olimpicas",
+    "descricao": "Quadro consolidado de medalhas olímpicas por país, com separação por Jogos de Verão, Jogos de Inverno e Total Geral. Compatível com o quadro oficial publicado na Wikipédia.",
+    "fontes_origem": [
+        "bronze/medalhas_1896_2024.parquet"
+    ],
+    "operacao": "Agregação por NOC com groupby + join entre Summer e Winter",
+    "campos_principais": [
+        {
+            "nome": "NOC",
+            "descricao": "Código do país (3 letras)"
+        },
+        {
+            "nome": "S_Gold",
+            "descricao": "Ouros nos Jogos de Verão"
+        },
+        {
+            "nome": "S_Silver",
+            "descricao": "Pratas nos Jogos de Verão"
+        },
+        {
+            "nome": "S_Bronze",
+            "descricao": "Bronzes nos Jogos de Verão"
+        },
+        {
+            "nome": "S_Total",
+            "descricao": "Total nos Jogos de Verão"
+        },
+        {
+            "nome": "W_Gold",
+            "descricao": "Ouros nos Jogos de Inverno"
+        },
+        {
+            "nome": "W_Silver",
+            "descricao": "Pratas nos Jogos de Inverno"
+        },
+        {
+            "nome": "W_Bronze",
+            "descricao": "Bronzes nos Jogos de Inverno"
+        },
+        {
+            "nome": "W_Total",
+            "descricao": "Total nos Jogos de Inverno"
+        },
+        {
+            "nome": "T_Gold",
+            "descricao": "Total geral de ouros"
+        },
+        {
+            "nome": "T_Silver",
+            "descricao": "Total geral de pratas"
+        },
+        {
+            "nome": "T_Bronze",
+            "descricao": "Total geral de bronzes"
+        },
+        {
+            "nome": "T_Total",
+            "descricao": "Total geral de medalhas"
+        }
+    ],
+    "arquivos_gerados": [
+        "medalhas_summary.csv  — quadro completo (formato Wikipédia)",
+        "medalhas_verao.csv    — ranking por Jogos de Verão (Top 50)",
+        "medalhas_inverno.csv  — ranking por Jogos de Inverno (Top 50)",
+        "medalhas_total.csv    — ranking geral (Top 50)",
+        "top50_verao.png       — gráfico de barras Top 50 Verão",
+        "top50_inverno.png     — gráfico de barras Top 50 Inverno",
+        "top50_total.png       — gráfico de barras Top 50 Total"
+    ],
+    "periodo_coberto": "1896–2024",
+    "data_processamento": "2026-03-29",
+    "camada": "gold",
+    "versao": "1.0",
+    "observacoes": "Ordenação: Total Geral decrescente, desempate por Ouro e Prata."
+}
