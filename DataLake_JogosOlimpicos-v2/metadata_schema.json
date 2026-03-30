@@ -1,0 +1,69 @@
+{
+    "schema_version": "1.0",
+    "descricao": "Esquema padrão de metadados deste Data Lake. Todo arquivo de dados possui um .json correspondente.",
+    "campos_obrigatorios": [
+        {
+            "campo": "nome_dataset",
+            "tipo": "string",
+            "descricao": "Identificador único"
+        },
+        {
+            "campo": "descricao",
+            "tipo": "string",
+            "descricao": "Descrição legível"
+        },
+        {
+            "campo": "fonte",
+            "tipo": "string",
+            "descricao": "URL ou referência de origem"
+        },
+        {
+            "campo": "campos_principais",
+            "tipo": "array",
+            "descricao": "Lista de colunas com nome, tipo e descrição"
+        },
+        {
+            "campo": "data_coleta",
+            "tipo": "string",
+            "descricao": "Data YYYY-MM-DD"
+        },
+        {
+            "campo": "formato",
+            "tipo": "string",
+            "descricao": "CSV / Parquet / JSON"
+        },
+        {
+            "campo": "camada",
+            "tipo": "string",
+            "descricao": "raw | bronze | gold"
+        },
+        {
+            "campo": "versao",
+            "tipo": "string",
+            "descricao": "Versão do dataset"
+        }
+    ],
+    "campos_opcionais": [
+        {
+            "campo": "fontes_origem",
+            "descricao": "Datasets de origem (bronze e gold)"
+        },
+        {
+            "campo": "operacao",
+            "descricao": "Transformação aplicada (JOIN, UNION, GROUP BY...)"
+        },
+        {
+            "campo": "periodo_coberto",
+            "descricao": "Intervalo temporal"
+        },
+        {
+            "campo": "observacoes",
+            "descricao": "Notas adicionais"
+        }
+    ],
+    "camadas": {
+        "raw": "Dados brutos sem transformação",
+        "bronze": "Dados padronizados, tipados e integrados (Parquet)",
+        "gold": "Dados prontos para análise, agregados e com visualizações"
+    }
+}
